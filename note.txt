@@ -1,0 +1,18 @@
+git init -> menambahkan git ke working direstory
+git add . -> menambahkan semua file dan folder pada working directory
+git add filename.txt -> menambahakn file filename.txt pada working directory 
+git commit -m "message" -> melakukan commit perubahan pada git dan memberikan message pada perubahan
+
+git rm --cached -r . -> mengeluarkan file dari git secara recursive untuk semua file pada git stage
+
+
+
+git status -> mengecek status file pada working directory
+
+git diff -> mengecek perubahan pada tiap file
+
+==================== cara membuat remote repository ==========================================
+pertama tama,buat repository git hub 
+git remote add origin https://github.com/muhamadbayu41/projectTEST.git -> membuat alamat remote repository pada git ke github
+
+git push -u origin master -> melakukan push working directory ke origin sebagai master branch
