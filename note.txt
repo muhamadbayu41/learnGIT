@@ -19,3 +19,5 @@ pertama tama,buat repository git hub
 git remote add origin https://github.com/muhamadbayu41/projectTEST.git -> membuat alamat remote repository pada git ke github
 
 git push -u origin master -> melakukan push working directory ke origin sebagai master branch
+
+===================== clone git ===============================================================
